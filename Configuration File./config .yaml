@@ -1,0 +1,12 @@
+model:
+  name: gpt2-medium
+  output_dir: ../models/gpt2-finetuned
+
+training:
+  epochs: 5
+  batch_size: 8
+  save_steps: 5000
+
+generation:
+  max_length: 150
+  temperature: 0.7
